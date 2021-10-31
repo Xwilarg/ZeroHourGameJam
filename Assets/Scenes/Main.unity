@@ -1071,10 +1071,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bad Crate
       objectReference: {fileID: 0}
-    - target: {fileID: 5996098738666967005, guid: 7e263fd801b6ed84cadf9a966be76b4f, type: 3}
-      propertyPath: m_TagString
-      value: Death
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e263fd801b6ed84cadf9a966be76b4f, type: 3}
 --- !u!1001 &491744993875234329

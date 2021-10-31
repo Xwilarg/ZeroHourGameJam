@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,14 @@ public class PlayerController : MonoBehaviour
             var receiver = other.GetComponent<ObjectiveReceiver>();
             if (receiver.Order == _nextReceiver)
                 _nextReceiver++;
+        }
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Death"))
+        {
+            SceneManager.LoadScene("Main");
         }
     }
 }
