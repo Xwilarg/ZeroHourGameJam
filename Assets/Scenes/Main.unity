@@ -367,6 +367,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &154279021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 491744993969472926, guid: f4b7da40df5ecc44392ad7ff6af9a151, type: 3}
+  m_PrefabInstance: {fileID: 392110462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &154279028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154279021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &285970994 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1714618801985692022, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
@@ -2079,6 +2097,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1890286075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 491744993969472926, guid: f4b7da40df5ecc44392ad7ff6af9a151, type: 3}
+  m_PrefabInstance: {fileID: 1644418108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1890286082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890286075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1929146348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2156,6 +2192,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b7da40df5ecc44392ad7ff6af9a151, type: 3}
+--- !u!1 &1940979221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 491744993969472926, guid: f4b7da40df5ecc44392ad7ff6af9a151, type: 3}
+  m_PrefabInstance: {fileID: 1929146348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1940979228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940979221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1970301583
 GameObject:
   m_ObjectHideFlags: 0
