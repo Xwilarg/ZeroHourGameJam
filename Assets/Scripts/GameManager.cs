@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
 
     public static GameManager S;
 
+    public int Left = 3;
+
     public void Win()
     {
         DidGameEnded = true;
