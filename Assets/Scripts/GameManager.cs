@@ -22,13 +22,13 @@ public class GameManager : MonoBehaviour
             else Physics.gravity += Vector3.down;
             _currDir = Direction.Down;
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
             if (_currDir != Direction.Right) Physics.gravity = Vector3.right;
             else Physics.gravity += Vector3.right;
             _currDir = Direction.Right;
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
             if (_currDir != Direction.Left) Physics.gravity = Vector3.left;
             else Physics.gravity += Vector3.left;
