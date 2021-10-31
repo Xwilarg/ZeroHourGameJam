@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        if (GameManager.S.DidGameEnded) return;
         if (other.CompareTag("Receiver"))
         {
             var receiver = other.GetComponent<ObjectiveReceiver>();
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
+        if (GameManager.S.DidGameEnded) return;
         if (collision.collider.CompareTag("Death"))
         {
             SceneManager.LoadScene("Main");
