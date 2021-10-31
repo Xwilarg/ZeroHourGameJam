@@ -3,9 +3,11 @@
 public class ObjectiveReceiver : MonoBehaviour
 {
     public int Id;
+    public bool Leader;
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (!Leader) return;
         if (collision.collider.CompareTag("Receiver"))
         {
             var obj = collision.collider.GetComponent<ObjectiveReceiver>();

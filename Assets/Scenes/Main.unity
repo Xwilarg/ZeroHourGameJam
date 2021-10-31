@@ -392,6 +392,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 375880721, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
+      propertyPath: Id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 375880722, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
+      propertyPath: m_Constraints
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 375880724, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -648,7 +656,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!114 &431389412
 MonoBehaviour:
@@ -663,6 +671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 0
+  Leader: 0
 --- !u!114 &431389413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1414,7 +1423,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!114 &1433584402
 MonoBehaviour:
@@ -1429,6 +1438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 0
+  Leader: 1
 --- !u!114 &1433584403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1737,7 +1747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9373989d262ecd488ff4add10b3e365, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 0
+  Id: 1
+  Leader: 0
 --- !u!114 &1669473724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1764,7 +1775,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!82 &1669473726
 AudioSource:
@@ -2225,7 +2236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9373989d262ecd488ff4add10b3e365, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 0
+  Id: 1
+  Leader: 1
 --- !u!114 &2047605910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2252,7 +2264,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!82 &2047605912
 AudioSource:
@@ -2370,6 +2382,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 375880721, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
+      propertyPath: Id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 375880721, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
+      propertyPath: Leader
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 375880722, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
+      propertyPath: m_Constraints
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 375880724, guid: 96b36c426de24ab4599eabb691c37911, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
