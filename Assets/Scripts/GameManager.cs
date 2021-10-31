@@ -74,5 +74,9 @@ public class GameManager : MonoBehaviour
             _currDir = Direction.Left;
             PlayGravity();
         }
+        if (Physics.gravity.x > 2) Physics.gravity = new Vector3(2f, 0f, 0f);
+        if (Physics.gravity.x < -2) Physics.gravity = new Vector3(-2f, 0f, 0f);
+        if (Physics.gravity.y < -2) Physics.gravity = new Vector3(0f, -2f, 0f);
+        if (Physics.gravity.y > 2) Physics.gravity = new Vector3(0f, 2f, 0f);
     }
 }
