@@ -7,6 +7,25 @@ public class GameManager : MonoBehaviour
     private AudioSource _audio;
     [SerializeField]
     private AudioClip[] _gravityClips;
+
+    [SerializeField]
+    private GameObject _victory;
+
+    public bool DidGameEnded { set; get; } = false;
+
+    public static GameManager S;
+
+    public void Win()
+    {
+        DidGameEnded = true;
+        _victory.SetActive(true);
+    }
+
+    private void Awake()
+    {
+        S = this;
+    }
+
     private enum Direction
     {
         None, Up, Down, Left, Right
